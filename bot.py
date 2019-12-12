@@ -5,7 +5,7 @@ token = '986794089:AAEpR4ZdfO5EH2AVMirQRqzgd6Gka6fWmtQ'
 
 bot = telebot.TeleBot(token)
 
-import pytz
+#import pytz
 import json
 import traceback
 import re  
