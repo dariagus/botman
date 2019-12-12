@@ -1,3 +1,4 @@
+!pip install pyTelegramBotAPI
 import telebot
 
 token = '986794089:AAEpR4ZdfO5EH2AVMirQRqzgd6Gka6fWmtQ'
