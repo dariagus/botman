@@ -1,11 +1,10 @@
-!pip install pyTelegramBotAPI
+#!pip install pyTelegramBotAPI
 import telebot
 
 token = '986794089:AAEpR4ZdfO5EH2AVMirQRqzgd6Gka6fWmtQ'
 
 bot = telebot.TeleBot(token)
 
-import telebot
 import pytz
 import json
 import traceback
