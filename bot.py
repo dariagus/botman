@@ -29,7 +29,7 @@ def start_command(message):
     bot.send_message(  
         message.chat.id,  
         'Здравствуйте! Я Botman, могу поделиться с вами валютными курсами RUB по отношению к USD, EUR, GBP \n' + 
-'Если нужны валютные курсы по отношению к рублю, жми  /exchange.\n' + 
+'Если нужны валютные курсы по отношению к рублю, нажимайте на /exchange.\n' +
 'А если нужна помощь, то /help.'  
   )
     
@@ -56,8 +56,8 @@ def newbutton(query):
     
 @bot.message_handler(commands=['help'])
 def mychat(message):
-    bot.send_message(message.chat.id, 'Чтобы получить список доступных валют по отношению к рублю, введите /exchange.\n' +
-'Нажмите на интересующую вас валюту. \ n' +
+    bot.send_message(message.chat.id, 'Чтобы получить список доступных валют по отношению к рублю, нажимайте на /exchange.\n' +
+'Нажмите на интересующую вас валюту. \n' +
 'Вы получите сообщение, содержащее информацию о курсе валют')
     
     
